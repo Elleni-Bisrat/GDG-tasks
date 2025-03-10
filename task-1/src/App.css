@@ -1,0 +1,50 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+button {
+  height: 2.5rem;
+  width: 6rem;
+  background: lightgreen;
+  border: none;
+  border-radius: 10px;
+}
+.createdTask {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+input {
+  height: 2rem;
+  width: 20rem;
+  background: lightgreen;
+  border: none;
+  border-radius: 5px;
+}
+.status {
+  height: 2rem;
+  width: 20rem;
+  background: lightgreen;
+  border: none;
+  border-radius: 5px;
+}
+
+.addbtn {
+  margin-top: 1rem;
+}
+.taskAddedBox {
+  margin-top: 8rem;
+  border: 1px solid black;
+}
+.taskList {
+  margin: 8px;
+  border: 1px solid black;
+  background: lightblue;
+}
+.editbtn,
+.deletebtn {
+  margin-left: 4rem;
+  height: 2rem;
+  background: rgb(79, 219, 79);
+}
