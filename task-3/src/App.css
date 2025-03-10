@@ -1,0 +1,25 @@
+.App {
+  /* background-color: rgb(26, 23, 23); */
+  /* color: white; */
+}
+
+.navigation{
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+    gap: 1rem;
+    height: 3rem;
+    align-items: center;
+    background-color: rgba(102, 95, 95, 0.553);
+    text-decoration-line: none;
+}
+.btns{
+    height: 3rem;
+    width: 8rem;
+    margin: 1rem;
+    background: violet;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(62, 68, 66);
+}
